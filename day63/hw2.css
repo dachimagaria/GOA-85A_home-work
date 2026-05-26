@@ -1,0 +1,6 @@
+.box2{
+    width: 400px;
+    height: 250px;
+
+    background: url("galaxy.jpg") top left / 100px no-repeat;
+}

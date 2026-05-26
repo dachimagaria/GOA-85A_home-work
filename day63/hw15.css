@@ -1,0 +1,12 @@
+.hover3{
+    width: 100px;
+    height: 100px;
+
+    background-color: black;
+
+    transition: 0.5s;
+}
+
+.hover3:hover{
+    transform: scale(1.2) rotate(360deg) translate(50px,50px);
+}

@@ -1,0 +1,14 @@
+.square{
+    width: 100px;
+    height: 100px;
+
+    background-color: green;
+
+    margin: auto;
+
+    transition: 0.5s;
+}
+
+.square:hover{
+    transform: translateY(50px) scale(3) rotate(45deg);
+}

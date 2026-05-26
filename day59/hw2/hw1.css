@@ -1,0 +1,52 @@
+/* 
+STATIC
+ყველა ელემენტს default-ად აქვს position: static;
+
+- top, left, right, bottom არ მუშაობს
+- ელემენტი ჩვეულებრივ flow-ში რჩება
+- გადაადგილება არ შეუძლია position-ით
+*/
+
+.box1{
+    position: static;
+}
+
+
+/*
+RELATIVE
+- ელემენტი რჩება თავის ადგილას layout-ში
+- მაგრამ ვიზუალურად შეგიძლია გადაადგილო
+- top/left/right/bottom მუშაობს
+- ძველი ადგილი მაინც დაკავებული რჩება
+
+მაგალითად:
+left: 20px; გადაიწევს მარჯვნივ
+top: 10px;  გადაიწევს ქვემოთ
+*/
+
+.box2{
+    position: relative;
+    left: 20px;
+    top: 10px;
+}
+
+
+/*
+ABSOLUTE
+- ელემენტი ამოვარდება ჩვეულებრივი layout-დან
+- გადაადგილდება parent-ის მიმართ
+- parent-ს ჩვეულებრივ ვაძლევთ position: relative;
+
+თუ parent არ აქვს relative,
+მაშინ გადაადგილდება მთლიანი გვერდის მიმართ
+*/
+
+.parent{
+    position: relative;
+}
+
+.child{
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}

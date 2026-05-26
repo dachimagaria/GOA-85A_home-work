@@ -1,0 +1,33 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    display: flex;
+    gap: 20px;
+    padding: 50px;
+}
+
+.box{
+    width: 100px;
+    height: 100px;
+}
+
+.red{
+    background-color: red;
+}
+
+.green{
+    background-color: green;
+
+    position: relative;
+
+    left: 30px;
+    top: 20px;
+}
+
+.blue{
+    background-color: blue;
+}

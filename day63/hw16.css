@@ -1,0 +1,14 @@
+.hover4{
+    width: 100px;
+    height: 100px;
+
+    background-color: pink;
+
+    transition: 0.5s;
+
+    transform-origin: top left;
+}
+
+.hover4:hover{
+    transform: scale(2) rotate(20deg) translateX(50px);
+}

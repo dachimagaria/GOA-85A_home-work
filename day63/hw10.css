@@ -1,0 +1,12 @@
+.hover2{
+    width: 100px;
+    height: 100px;
+
+    background-color: blue;
+
+    transition: 0.5s;
+}
+
+.hover2:hover{
+    transform: scale(0.7) translateX(-30px) rotate(-10deg);
+}

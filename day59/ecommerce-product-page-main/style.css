@@ -1,13 +1,15 @@
+@import url('https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght,YOPQ@100..900,300&display=swap');
+
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: sans-serif;
 }
 
 body{
     padding: 40px 120px;
     background-color: white;
+    font-family: 'Kumbh Sans';
 }
 
 header{
@@ -79,6 +81,7 @@ main{
     color: #2e2e2e;
     letter-spacing: 3px;
     margin-bottom: 20px;
+
 }
 
 .right-side h1{

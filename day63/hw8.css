@@ -1,0 +1,19 @@
+.parent{
+    width: 500px;
+    height: 500px;
+
+    background: url("galaxy.jpg") center / cover no-repeat;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.child{
+    width: 200px;
+    height: 200px;
+
+    background: url("monkey.jpg") center / cover no-repeat;
+
+    border-radius: 20px;
+}

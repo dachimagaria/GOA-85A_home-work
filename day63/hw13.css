@@ -1,0 +1,12 @@
+.card-hover{
+    width: 200px;
+    height: 250px;
+
+    background-color: orange;
+
+    transition: 0.5s;
+}
+
+.card-hover:hover{
+    transform: scale(1.5) rotate(10deg) translateY(-20px);
+}

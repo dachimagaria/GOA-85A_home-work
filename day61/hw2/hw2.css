@@ -1,0 +1,20 @@
+body{
+    margin: 0;
+    font-family: sans-serif;
+}
+
+.navbar{
+    position: sticky;
+    top: 0;
+
+    background: #111;
+    color: white;
+
+    padding: 20px;
+    z-index: 1000;
+}
+
+.content{
+    padding: 40px;
+    height: 200vh;
+}

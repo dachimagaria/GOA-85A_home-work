@@ -1,0 +1,14 @@
+.hover5{
+    width: 100px;
+    height: 100px;
+
+    background-color: brown;
+
+    transition: 0.5s;
+
+    transform-origin: bottom right;
+}
+
+.hover5:hover{
+    transform: scale(0.7) translateX(-30px) rotate(-15deg);
+}

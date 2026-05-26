@@ -1,0 +1,22 @@
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+
+.hover1{
+    width: 100px;
+    height: 100px;
+
+    background-color: red;
+
+    transition: 0.5s;
+}
+
+.hover1:hover{
+    transform: scale(2) rotate(540deg) translateX(30px);
+}

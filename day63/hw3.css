@@ -1,0 +1,6 @@
+.section1{
+    width: 500px;
+    height: 300px;
+
+    background: url("galaxy.jpg") bottom right / 150px 150px repeat-x;
+}
