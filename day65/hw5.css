@@ -1,0 +1,18 @@
+/* 5)შექმენი navbar-ის ლინკები, სადაც hover-ზე:
+ტექსტის ფერი შეიცვალოს1.2s
+underline effect გამოჩნდეს 1s
+ტექსტი გაიზარდოს 0.3s */
+
+
+
+a {
+    transition: color 1.2s , text-decoration 1s , font-size 0.3s ;
+}
+
+
+
+a:hover {
+    color: red;
+    text-decoration: underline;
+    font-size: 35px;
+}

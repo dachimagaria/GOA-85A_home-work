@@ -1,0 +1,55 @@
+/* 12)შექმენი box, რომელიც hover-ზე:
+translateX(50px)-ით მარჯვნივ გადავა
+background-color შეიცვლის 
+all 2s */
+
+
+
+
+
+
+
+
+div{
+    width: 100px;
+    height:100px;
+    transition: all 2s;
+    background-color: red;
+}
+
+div:hover{
+    transform: translateX(50px);
+    background-color: black;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,22 @@
+/* 15)ექმენი ფოტო, რომელსაც hover-ზე:
+scale(1.1) და rotate(30deg) ერთად ქონდეს 
+all 1.5s */
+
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+img{
+    transition: all 1.5s;
+    border-radius: 50%;
+}
+
+
+img:hover{
+    transform: scale(1.1) rotate(30deg);
+    
+}

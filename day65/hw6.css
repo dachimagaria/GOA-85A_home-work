@@ -1,0 +1,18 @@
+/* 6)შექმენი box, რომელსაც :active დროს:
+scale შემცირდეს 0.15s
+rotate შესრულდეს 2.4s
+background-color შეიცვალოს 1.3s */
+
+
+#box{
+    transition: scale 0.15s , rotate 2.4s , background-color 1.3s ;
+    width: 100px;
+    height: 100px;
+    background-color: blue;
+}
+
+#box:active{
+    transform: scale(20) rotate(180deg);
+    background-color: rgb(255, 0, 0);
+}
+

@@ -1,0 +1,26 @@
+/* 3)შექმენი card, რომელსაც hover-ზე:
+translateY(-20px) შესრულდეს 0.4s
+box-shadow დაემატოს 0.8s
+scale გაიზარდოს 0.5s */
+
+
+
+
+
+
+
+#card{
+    transition: translateY 0.4s , box-shadow 0.8s , scale 0.5s;
+    background-color: pink;
+    width: 100px;
+    height: 100px;
+}
+
+#card:hover{
+    transform: translateY(-20px) scale(20px);
+    box-shadow: 12px 12px 12px red;
+}
+
+
+
+
