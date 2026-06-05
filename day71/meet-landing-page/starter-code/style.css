@@ -1,4 +1,6 @@
 
+
+
 *{
     margin:0;
     padding:0;
@@ -6,7 +8,7 @@
 }
 
 body{
-    font-family: Arial, sans-serif;
+    font-family: Arial,sans-serif;
     background-color:#fafafa;
     text-align:center;
 }
@@ -136,13 +138,14 @@ body{
     margin-bottom:20px;
 }
 
+
 .feature-content h2{
     font-size:40px;
     color:#28283D;
     margin-bottom:25px;
 }
 
-.feature-content p{
+.feature-content{
     color:#87879D;
     line-height:1.6;
 }
