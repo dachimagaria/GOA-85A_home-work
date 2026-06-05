@@ -1,0 +1,67 @@
+/* 1)შექმენით ერთი დივი რომელიც იქნება წითელი ფერის
+
+ანიმაციის ეტაპები:
+
+პირველი --> დივი გახდეს ყვითელი ფერის და ჩამოვიდეს ქვემოთ 50px ით
+
+მეორე --> დივი გახდეს ლურჯი ფერის და მომრგვალდეს 20პხ ით ასევე გაიწიოს მარჯვნივ 50px ით,ასევე დატრიალდეს 40deg ით
+
+მესამე --> დივი გახდეს სტაფილოსფერი და გახდეს სრულიად მრგვალი ,გაუჩნდეს წითელი ბორდერი
+
+------
+
+ანიმაცია გაგრძელდეს 5 წამის განმავლობაში
+
+დაიწყოს 3 წამის შემდეგ 
+
+და ამიმმაცია მოხდეს 4 ჯერ */
+
+
+
+.div{
+    width: 100px;
+    height: 100px;
+    background-color: red;
+
+    animation-name: movee;
+    animation-duration:5s;
+    animation-delay: 3s;
+    animation-iteration-count: 4;
+}
+
+@keyframes movee {
+
+    33%{
+        background-color: yellow;
+        transform: translateY(50px);
+    }
+
+
+    66%{
+        background-color: blue;
+        border-radius: 20px;
+        transform: translate(50px , 50px) rotate(40deg);
+    }
+
+
+
+    100%{
+        background-color: orange;
+        border-radius: 3px solid red;
+        border-radius: 50%;
+        transform: translate(50px , 50px) rotate(40deg)
+    }
+
+
+}
+
+
+
+
+
+
+
+
+
+
+

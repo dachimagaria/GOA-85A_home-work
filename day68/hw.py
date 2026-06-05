@@ -36,8 +36,6 @@
 
 
 
-
-
 # codewars 5
 
 # def multi(l_st):
