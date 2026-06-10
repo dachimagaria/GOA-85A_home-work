@@ -1,0 +1,59 @@
+body{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    height:100vh;
+}
+
+.clock{
+    width:300px;
+    height:300px;
+    border:18px solid cyan;
+    border-radius:50%;
+    position:relative;
+}
+
+.top{
+    width:35px;
+    height:35px;
+    border:10px solid cyan;
+    border-radius:50%;
+    position:absolute;
+    top:-65px;
+    left:122px;
+}
+
+.center{
+    width:22px;
+    height:22px;
+    background:cyan;
+    border-radius:50%;
+    position:absolute;
+    top:139px;
+    left:139px;
+}
+
+.hand{
+    width:8px;
+    height:95px;
+    background:cyan;
+    border-radius:10px;
+    position:absolute;
+    top:55px;
+    left:146px;
+
+    transform-origin:bottom center;
+    animation:rotate 4s linear infinite;
+}
+
+@keyframes rotate{
+
+    from{
+        transform:rotate(0deg);
+    }
+
+    to{
+        transform:rotate(360deg);
+    }
+
+}

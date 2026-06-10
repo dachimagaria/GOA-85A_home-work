@@ -1,5 +1,4 @@
-
-
+@import url('https://fonts.googleapis.com/css2?family=Red+Hat+Display:ital,wght@0,300..900;1,300..900&display=swap');
 
 *{
     margin:0;
@@ -8,7 +7,7 @@
 }
 
 body{
-    font-family: Arial,sans-serif;
+    font-family: 'Red Hat Display';
     background-color:#fafafa;
     text-align:center;
 }
@@ -36,9 +35,9 @@ body{
 
 .hero-content h1{
     font-size:64px;
-    line-height:1;
-    margin-bottom:30px;
     color:#28283D;
+    font-weight:900;
+    font-size: 64px;
 }
 
 .hero-content p{
