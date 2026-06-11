@@ -3,30 +3,31 @@ body{
     justify-content:center;
     align-items:center;
     height:100vh;
+    background-color: black;
 }
 
 .clock{
     width:300px;
     height:300px;
-    border:18px solid cyan;
+    border: 35px solid rgb(255, 255, 255);
     border-radius:50%;
     position:relative;
 }
 
 .top{
-    width:35px;
-    height:35px;
-    border:10px solid cyan;
+    width:30px;
+    height:30px;
+    border:20px solid rgb(255, 255, 255);
     border-radius:50%;
     position:absolute;
-    top:-65px;
-    left:122px;
+    top:-90px;
+    left:115px;
 }
 
 .center{
     width:22px;
     height:22px;
-    background:cyan;
+    background:rgb(255, 255, 255);
     border-radius:50%;
     position:absolute;
     top:139px;
@@ -34,9 +35,9 @@ body{
 }
 
 .hand{
-    width:8px;
+    width:10px;
     height:95px;
-    background:cyan;
+    background:rgb(255, 255, 255);
     border-radius:10px;
     position:absolute;
     top:55px;
