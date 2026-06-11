@@ -112,7 +112,7 @@ body{
 .cloud1{
     top:40px;
     left:-150px;
-    animation:leftcloud 12s linear infinite;
+    animation:leftcloud 6s linear infinite;
 }
 
 
@@ -120,7 +120,7 @@ body{
 .cloud2{
     top:100px;
     right:-150px;
-    animation:rightcloud 15s linear infinite;
+    animation:rightcloud 12s linear infinite;
 }
 
 
@@ -128,7 +128,7 @@ body{
 .cloud3{
     top:170px;
     left:-250px;
-    animation:leftcloud2 18s linear infinite;
+    animation:leftcloud2 15s linear infinite;
 }
 
 @keyframes leftcloud{
