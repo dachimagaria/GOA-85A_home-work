@@ -9,7 +9,7 @@ body{
     justify-content:center;
     align-items:center;
     height:100vh;
-    background:#ddd;
+    background-color:#ddd;
 }
 
 .scene{
@@ -29,7 +29,7 @@ body{
     position:absolute;
     left: 360px;
     bottom:-40px;
-    background:red;
+    background-color:red;
     animation:sunmove 8s linear infinite;
 }
 
@@ -37,25 +37,25 @@ body{
 
     0%{
         bottom:-40px;
-        background:red;
+        background-color:red;
     }
 
     25%{
-        background:orangered;
+        background-color:orangered;
     }
 
     50%{
         bottom:250px;
-        background:rgb(255, 238, 0);
+        background-color:rgb(255, 238, 0);
     }
 
     75%{
-        background:orange;
+        background-color:orange;
     }
 
     100%{
         bottom:-40px;
-        background:red;
+        background-color:red;
     }
 
 }
@@ -71,7 +71,7 @@ body{
 .c1{
     width:40px;
     height:40px;
-    background:#dcdcdc;
+    background-color:#dcdcdc;
     border-radius:50%;
     position:absolute;
     left:10px;
@@ -81,7 +81,7 @@ body{
 .c2{
     width:55px;
     height:55px;
-    background:#dcdcdc;
+    background-color:#dcdcdc;
     border-radius:50%;
     position:absolute;
     left:25px;  
@@ -90,7 +90,7 @@ body{
 .c3{
     width:40px;
     height:40px;
-    background:#dcdcdc;
+    background-color:#dcdcdc;
     border-radius:50%;
     position:absolute;
     left:60px;
@@ -100,7 +100,7 @@ body{
 .c4{
     width:95px;
     height:30px;
-    background:#dcdcdc;
+    background-color:#dcdcdc;
     border-radius:20px;
     position:absolute;
     left:15px;
