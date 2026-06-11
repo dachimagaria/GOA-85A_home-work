@@ -3,13 +3,13 @@ body{
     justify-content:center;
     align-items:center;
     height:100vh;
-    background:#e5e5e5;
+    background-color:#e5e5e5;
 }
 
 .heart{
     width:120px;
     height:120px;
-    background:#ff6243;
+    background-color:#ff6243;
     position:relative;
     transform:rotate(45deg);
     animation:beat 1s infinite alternate;
@@ -18,7 +18,7 @@ body{
 .left{
     width:120px;
     height:120px;
-    background:#ff6243;
+    background-color:#ff6243;
     border-radius:50%;
     position:absolute;
     top:-60px;
@@ -28,7 +28,7 @@ body{
 .right{
     width:120px;
     height:120px;
-    background:#ff6243;
+    background-color:#ff6243;
     border-radius:50%;
     position:absolute;
     top:0;

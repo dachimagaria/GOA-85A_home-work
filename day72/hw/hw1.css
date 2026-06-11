@@ -3,7 +3,7 @@ body{
     justify-content:center;
     align-items:center;
     height:100vh;
-    background:#3d6df5;
+    background-color:#3d6df5;
 }
 
 .loader{
@@ -15,7 +15,7 @@ body{
 .dot{
     width:20px;
     height:20px;
-    background:white;
+    background-color:white;
     border-radius:50%;
     position:absolute;
     animation:fade 1.2s linear infinite;
