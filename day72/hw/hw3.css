@@ -15,7 +15,7 @@ body{
 .scene{
     width:700px;
     height:400px;
-    background:skyblue;
+    background:rgb(255, 255, 255);
     position:relative;
     overflow:hidden;
 }
@@ -27,7 +27,7 @@ body{
     height:80px;
     border-radius:50%;
     position:absolute;
-    left:310px;
+    left: 360px;
     bottom:-40px;
     background:red;
     animation:sunmove 8s linear infinite;
@@ -46,7 +46,7 @@ body{
 
     50%{
         bottom:250px;
-        background:yellow;
+        background:rgb(255, 238, 0);
     }
 
     75%{
@@ -71,17 +71,17 @@ body{
 .c1{
     width:40px;
     height:40px;
-    background:white;
+    background:#dcdcdc;
     border-radius:50%;
     position:absolute;
-    left:0;
+    left:10px;
     top:20px;
 }
 
 .c2{
     width:50px;
     height:50px;
-    background:white;
+    background:#dcdcdc;
     border-radius:50%;
     position:absolute;
     left:25px;
@@ -91,7 +91,7 @@ body{
 .c3{
     width:40px;
     height:40px;
-    background:white;
+    background:#dcdcdc;
     border-radius:50%;
     position:absolute;
     left:60px;
@@ -101,7 +101,7 @@ body{
 .c4{
     width:80px;
     height:30px;
-    background:white;
+    background:#dcdcdc;
     border-radius:20px;
     position:absolute;
     left:20px;
@@ -170,12 +170,10 @@ body{
 
 
 
-.mountain1{
-    width:0;
-    height:0;
+.mountain1{ 
     border-left:180px solid transparent;
     border-right:180px solid transparent;
-    border-bottom:220px solid #3b82f6;
+    border-bottom:220px solid #4381b6;
     position:absolute;
     bottom:0;
     left:40px;
@@ -183,13 +181,21 @@ body{
 }
 
 .mountain2{
-    width:0;
-    height:0;
     border-left:180px solid transparent;
     border-right:180px solid transparent;
-    border-bottom:220px solid #2563eb;
+    border-bottom:220px solid #4381b6;
     position:absolute;
     bottom:0;
     left:280px;
+    z-index:2;
+}
+
+.mountain3{
+    border-left:140px solid transparent;
+    border-right:140px solid transparent;
+    border-bottom:170px solid #4381b6;
+    position:absolute;
+    bottom:0;
+    left:220px; 
     z-index:2;
 }
