@@ -1,0 +1,29 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.parent{
+    width: 800px;
+    height: 800px;
+    border: 3px solid red;
+    display: grid;
+    grid-template-columns: repeat(4, 150px);
+    grid-template-rows: repeat(4, 150px);
+    
+    align-content: end;
+    justify-content: end;
+    justify-items: center;
+    align-items: end;
+}
+
+.box{
+    width: 100px;
+    height: 100px;
+    background-color: green;
+}
+
+.bb{
+    justify-self: start;
+}
