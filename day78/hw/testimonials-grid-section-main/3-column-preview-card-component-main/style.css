@@ -53,6 +53,7 @@ body {
 .card h1 {
   font-family: "Big Shoulders", sans-serif;
   font-size: 40px;
+  font-weight: 500;
   color: hsl(0, 0%, 95%);
   margin-bottom: 35px;
 }
