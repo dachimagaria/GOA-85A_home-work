@@ -14,6 +14,40 @@
     />
   </head>
 
+  <div id="time-stop">
+    <div id="time-wave"></div>
+
+    <h1>THE WORLD</h1>
+
+    <h2>TIME HAS STOPPED</h2>
+  </div>
+
+  <audio id="timeSound">
+    <source src="zaowlrd.mp3" type="audio/mp3" />
+  </audio>
+
+  <script>
+    function timeStop() {
+      let effect = document.getElementById("time-stop");
+
+      let sound = document.getElementById("timeSound");
+
+      sound.currentTime = 0;
+
+      sound.play();
+
+      effect.classList.add("active");
+
+      document.body.classList.add("freeze");
+
+      setTimeout(() => {
+        effect.classList.remove("active");
+
+        document.body.classList.remove("freeze");
+      }, 5000);
+    }
+  </script>
+
   <body>
     <nav>
       <h1 class="logo">JOJO</h1>
@@ -24,6 +58,9 @@
         <li><a href="#characters">Characters</a></li>
         <li><a href="#gallery">Gallery</a></li>
         <li><a href="#parts">Parts</a></li>
+        <li><a href="jojosongs.html">Songs</a></li>
+        <li><a href="3Dmodel.html">3D</a></li>
+        <li><a href="effects.html">JoJo Effects</a></li>
       </ul>
     </nav>
 
@@ -37,7 +74,7 @@
 
         <p>The legendary story of the Joestar family across generations.</p>
 
-        <a href="#" class="btn"> Begin Adventure </a>
+        <a href="#" class="btn" onclick="timeStop()"> TIME STOP </a>
       </div>
     </header>
 

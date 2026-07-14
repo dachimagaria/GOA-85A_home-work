@@ -1,0 +1,246 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:Poppins, sans-serif;
+}
+
+
+body{
+    background:
+    linear-gradient(rgba(0,0,0,.85),rgba(0,0,0,.95)),
+    url("https://wallpapercave.com/wp/wp2757874.jpg");
+
+    background-size:cover;
+    background-attachment:fixed;
+    color:white;
+}
+
+
+/* NAVBAR */
+
+nav{
+    position:sticky;
+    top:0;
+    z-index:1000;
+
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+
+    padding:25px 70px;
+
+    background:rgba(0,0,0,.75);
+    backdrop-filter:blur(10px);
+
+    border-bottom:2px solid #8a00ff;
+}
+
+
+nav h1{
+
+    font-family:"Bebas Neue",sans-serif;
+    font-size:45px;
+    letter-spacing:5px;
+
+    color:#b700ff;
+
+    text-shadow:
+    0 0 10px #b700ff,
+    0 0 20px #b700ff;
+
+}
+
+
+
+nav a{
+
+    color:white;
+    text-decoration:none;
+
+    font-size:18px;
+
+    padding:12px 25px;
+
+    border:2px solid #b700ff;
+    border-radius:30px;
+
+    transition:.3s;
+
+}
+
+
+
+nav a:hover{
+
+    background:#b700ff;
+
+    box-shadow:
+    0 0 20px #b700ff;
+
+}
+
+
+
+/* TITLE */
+
+section{
+
+    padding:60px 70px;
+
+    text-align:center;
+
+}
+
+
+
+section h2{
+
+    font-size:50px;
+
+    font-family:"Bebas Neue",sans-serif;
+
+    letter-spacing:5px;
+
+    margin-bottom:50px;
+
+    color:white;
+
+    text-shadow:
+    0 0 15px #ff00ff;
+
+}
+
+
+
+/* MODELS GRID */
+
+
+.models{
+
+    display:grid;
+
+    grid-template-columns:
+    repeat(auto-fit,minmax(350px,1fr));
+
+    gap:40px;
+
+}
+
+
+
+/* CARD */
+
+
+.model{
+
+    background:
+    linear-gradient(145deg,#171717,#090909);
+
+    border-radius:25px;
+
+    padding:25px;
+
+    border:2px solid #6500ff;
+
+    overflow:hidden;
+
+    transition:.4s;
+
+
+    box-shadow:
+    0 0 20px rgba(120,0,255,.3);
+
+}
+
+
+
+.model:hover{
+
+    transform:translateY(-15px);
+
+    border-color:#ff00ff;
+
+    box-shadow:
+    0 0 30px #b700ff;
+
+}
+
+
+
+
+/* 3D VIEWER */
+
+
+model-viewer{
+
+    width:100%;
+
+    height:500px;
+
+    background:
+
+    radial-gradient(circle,#333,#080808);
+
+    border-radius:20px;
+
+}
+
+
+
+/* MODEL NAME */
+
+
+.model h3{
+
+    margin-top:20px;
+
+    font-size:28px;
+
+    color:#d400ff;
+
+    letter-spacing:2px;
+
+}
+
+
+
+/* MOBILE */
+
+@media(max-width:700px){
+
+nav{
+
+    padding:20px;
+
+}
+
+
+nav h1{
+
+    font-size:30px;
+
+}
+
+
+section{
+
+    padding:30px 20px;
+
+}
+
+
+section h2{
+
+    font-size:35px;
+
+}
+
+
+model-viewer{
+
+    height:350px;
+
+}
+
+}

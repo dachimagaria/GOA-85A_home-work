@@ -1,0 +1,253 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>JoJo Stand 3D Models</title>
+
+<link rel="stylesheet" href="3Dmodel.css">
+
+
+<script type="module"
+src="https://unpkg.com/@google/model-viewer/dist/model-viewer.min.js">
+</script>
+
+
+</head>
+
+
+<body>
+
+
+<nav>
+
+<h1>JOJO 3D</h1>
+
+<a href="index.html">Back Home</a>
+
+</nav>
+
+
+
+<section>
+
+
+<h2>JOJO STANDS 3D MODELS</h2>
+
+
+
+<div class="models">
+
+
+
+<div class="model" onclick="activateStand('The World','world')">
+
+
+<model-viewer
+
+src="dio_brando__his_stand_the_world__jjba_eoh.glb"
+
+camera-controls
+
+auto-rotate
+
+shadow-intensity="1"
+
+exposure="1">
+
+</model-viewer>
+
+
+<h3>The World</h3>
+
+
+</div>
+
+
+
+
+
+<div class="model" onclick="activateStand('Star Platinum','star')">
+
+
+<model-viewer
+
+src="star_platinum.glb"
+
+camera-controls
+
+auto-rotate
+
+shadow-intensity="1"
+
+exposure="1">
+
+</model-viewer>
+
+
+<h3>Star Platinum</h3>
+
+
+</div>
+
+
+
+
+
+
+<div class="model" onclick="activateStand('Silver Chariot','chariot')">
+
+
+<model-viewer
+
+src="silver_chariot.glb"
+
+camera-controls
+
+auto-rotate
+
+shadow-intensity="1"
+
+exposure="1">
+
+</model-viewer>
+
+
+<h3>Silver Chariot</h3>
+
+
+</div>
+
+
+
+
+
+
+<div class="model" onclick="activateStand('Hierophant Green','hierophant')">
+
+
+<model-viewer
+
+src="hierophant_green_dr.glb"
+
+camera-controls
+
+auto-rotate
+
+shadow-intensity="1"
+
+exposure="1">
+
+</model-viewer>
+
+
+<h3>Hierophant Green</h3>
+
+
+</div>
+
+
+
+</div>
+
+
+</section>
+
+
+
+
+
+<div id="stand-popup">
+
+<h1 id="stand-name"></h1>
+
+</div>
+
+
+
+
+
+
+<script>
+
+
+const sounds = {
+
+
+world:
+"zaowlrd.mp3",
+
+
+star:
+"star-platinum-the-world_qiV5dln.mp3",
+
+
+chariot:
+"y2mate_cn87NwR.mp3",
+
+
+hierophant:
+"emeraldsplash.mp3"
+
+
+};
+
+
+
+
+
+function activateStand(name,type){
+
+
+
+
+
+let audio = new Audio(sounds[type]);
+
+audio.volume = 1;
+
+audio.play();
+
+
+
+
+
+
+
+let popup=document.getElementById("stand-popup");
+
+let text=document.getElementById("stand-name");
+
+
+text.innerHTML=name;
+
+
+popup.classList.add("show");
+
+
+
+setTimeout(()=>{
+
+
+popup.classList.remove("show");
+
+
+},2000);
+
+
+
+}
+
+
+
+</script>
+
+
+
+
+</body>
+
+</html>

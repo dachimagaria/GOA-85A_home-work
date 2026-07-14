@@ -1,0 +1,112 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:Poppins,sans-serif;
+}
+
+body{
+    background:#090909;
+    color:white;
+}
+
+
+nav{
+    position:fixed;
+    width:100%;
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    padding:20px 70px;
+    background:rgba(0,0,0,.8);
+    z-index:1000;
+}
+
+
+.logo{
+    font-family:"Bebas Neue";
+    font-size:45px;
+    color:#ff0055;
+}
+
+
+nav ul{
+    display:flex;
+    gap:30px;
+    list-style:none;
+}
+
+
+nav a{
+    color:white;
+    text-decoration:none;
+}
+
+
+.hero{
+    height:100vh;
+    background:
+    linear-gradient(rgba(0,0,0,.6),rgba(0,0,0,.9)),
+    url("https://wallpapercave.com/wp/wp4076542.jpg");
+
+    background-size:cover;
+    background-position:center;
+
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    text-align:center;
+}
+
+
+.hero h2{
+    font-family:"Bebas Neue";
+    font-size:90px;
+    letter-spacing:5px;
+}
+
+
+.hero p{
+    font-size:20px;
+}
+
+
+.songs{
+    padding:80px 10%;
+    text-align:center;
+}
+
+
+.songs h2{
+    font-size:50px;
+    margin-bottom:40px;
+}
+
+
+.song-card{
+    background:#151515;
+    padding:30px;
+    margin:25px auto;
+    max-width:700px;
+    border-radius:15px;
+    box-shadow:0 0 20px #ff0055;
+}
+
+
+.song-card h3{
+    color:#ff0055;
+    font-size:30px;
+}
+
+
+.song-card audio{
+    width:100%;
+    margin-top:20px;
+}
+
+
+footer{
+    text-align:center;
+    padding:30px;
+    background:#111;
+}
