@@ -1,0 +1,120 @@
+* {
+  box-sizing: border-box;
+  font-family: Arial;
+}
+
+body {
+  margin: 0;
+
+  height: 100vh;
+
+  overflow: hidden;
+
+  text-align: center;
+
+  color: white;
+
+  background: radial-gradient(circle, #553000, #080000);
+}
+
+h1 {
+  font-size: 55px;
+
+  text-shadow: 0 0 20px orange;
+}
+
+.stats {
+  font-size: 25px;
+}
+
+#game {
+  position: relative;
+
+  height: 70vh;
+}
+
+#cookie {
+  position: absolute;
+
+  top: 35%;
+
+  left: 50%;
+
+  transform: translate(-50%, -50%);
+
+  font-size: 220px;
+
+  cursor: pointer;
+
+  filter: drop-shadow(0 0 30px orange);
+
+  transition: 0.1s;
+}
+
+#cookie:hover {
+  transform: translate(-50%, -50%) scale(1.1);
+}
+
+.hit {
+  animation: hit 0.15s;
+}
+
+@keyframes hit {
+  50% {
+    transform: translate(-50%, -50%) scale(0.8) rotate(10deg);
+
+    filter: brightness(2);
+  }
+}
+
+button {
+  padding: 20px 50px;
+
+  border: none;
+
+  border-radius: 40px;
+
+  background: linear-gradient(45deg, orange, red);
+
+  color: white;
+
+  font-size: 25px;
+
+  cursor: pointer;
+
+  box-shadow: 0 0 30px orange;
+}
+
+button:hover {
+  scale: 1.1;
+}
+
+.float {
+  position: absolute;
+
+  font-size: 35px;
+
+  color: yellow;
+
+  font-weight: bold;
+
+  animation: float 1s forwards;
+}
+
+@keyframes float {
+  to {
+    transform: translateY(-150px);
+
+    opacity: 0;
+  }
+}
+
+#fx {
+  position: fixed;
+
+  top: 0;
+
+  left: 0;
+
+  pointer-events: none;
+}
