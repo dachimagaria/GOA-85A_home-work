@@ -1,0 +1,707 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+  background: #fff;
+}
+
+header {
+  width: 100%;
+  padding: 20px 8%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logos {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 50px;
+  margin-top: 45px;
+  flex-wrap: wrap;
+}
+
+.logos img {
+  width: 45px;
+  height: 45px;
+  object-fit: contain;
+}
+
+.green {
+  color: #4caf4f;
+}
+
+nav {
+  display: flex;
+  gap: 35px;
+}
+
+nav a {
+  color: #444;
+  text-decoration: none;
+}
+
+.register {
+  background: #4caf4f;
+  color: white;
+  border: none;
+  padding: 12px 22px;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.hero {
+  background: #f5f7fa;
+  padding: 70px 8%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.hero-text {
+  max-width: 600px;
+}
+
+.hero h1 {
+  font-size: 64px;
+  color: #444;
+  line-height: 1.2;
+}
+
+.hero h1 span {
+  color: #4caf4f;
+}
+
+.hero p {
+  margin: 25px 0;
+  color: #777;
+}
+
+.hero button {
+  background: #4caf4f;
+  color: white;
+  border: none;
+  padding: 14px 35px;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.hero-image img {
+  width: 420px;
+}
+
+.clients {
+  text-align: center;
+  padding: 70px 8%;
+}
+
+.clients h2 {
+  font-size: 42px;
+  color: #444;
+}
+
+.clients p {
+  margin-top: 10px;
+  color: #777;
+}
+
+.logos {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 50px;
+  font-size: 48px;
+  color: #444;
+}
+
+.community {
+  text-align: center;
+  padding: 80px 8%;
+}
+
+.community h2 {
+  font-size: 46px;
+  color: #444;
+}
+
+.community p {
+  color: #777;
+  margin-top: 15px;
+}
+
+.cards {
+  margin-top: 60px;
+  display: flex;
+  justify-content: center;
+  gap: 35px;
+  flex-wrap: wrap;
+}
+
+.card {
+  width: 320px;
+  background: white;
+  border-radius: 15px;
+  padding: 35px;
+  box-shadow: 0 5px 20px rgba(0, 0, 0, 0.08);
+}
+
+.card i {
+  font-size: 50px;
+  color: #4caf4f;
+}
+
+.card p {
+  color: #777;
+  line-height: 1.6;
+}
+
+.card h3 {
+  font-size: 32px;
+  font-weight: 700;
+  color: #4d4d4d;
+  line-height: 1.3;
+  margin: 18px 0;
+}
+
+.card img {
+  width: 65px;
+  height: 65px;
+  object-fit: contain;
+  margin-bottom: 20px;
+}
+
+.pixelgrade {
+  padding: 80px 8%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 140px;
+}
+
+.design {
+  padding: 80px 8%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 140px;
+}
+
+.pixel-img img {
+  width: 440px;
+}
+
+.pixel-text {
+  max-width: 600px;
+}
+
+.pixel-text h2 {
+  font-size: 40px;
+  color: #4d4d4d;
+  line-height: 1.3;
+  margin-bottom: 20px;
+}
+
+.pixel-text p {
+  color: #717171;
+  line-height: 1.8;
+  margin-bottom: 30px;
+}
+
+.pixel-text button {
+  background: #4caf4f;
+  color: #fff;
+  border: none;
+  padding: 14px 34px;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.stats {
+  background: #f5f7fa;
+  padding: 70px 8%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.stats-left h2 {
+  font-size: 42px;
+  color: #4d4d4d;
+  line-height: 1.3;
+}
+
+.stats-left span {
+  color: #4caf4f;
+}
+
+.stats-left p {
+  margin-top: 10px;
+  color: #717171;
+}
+
+.stats-right {
+  display: grid;
+  grid-template-columns: repeat(2, 220px);
+  gap: 35px 60px;
+}
+
+.stat {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+
+.stat img {
+  width: 48px;
+}
+
+.stat h3 {
+  font-size: 28px;
+  color: #4d4d4d;
+}
+
+.stat span {
+  color: #717171;
+  font-size: 15px;
+}
+
+.design {
+  padding: 80px 8%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 80px;
+}
+
+.design-img img {
+  width: 420px;
+}
+
+.design-text {
+  max-width: 600px;
+}
+
+.design-text h2 {
+  font-size: 40px;
+  color: #4d4d4d;
+  margin-bottom: 20px;
+}
+
+.design-text p {
+  color: #717171;
+  line-height: 1.8;
+  margin-bottom: 30px;
+}
+
+.design-text button {
+  background: #4caf4f;
+  color: #fff;
+  border: none;
+  padding: 14px 34px;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.tesla {
+  background: #f5f7fa;
+  padding: 70px 8%;
+  display: flex;
+  align-items: center;
+  gap: 60px;
+}
+
+.tesla-img img {
+  width: 330px;
+  border-radius: 8px;
+}
+
+.tesla-text p {
+  color: #717171;
+  line-height: 1.8;
+  margin-bottom: 20px;
+}
+
+.tesla-text h4 {
+  color: #4caf4f;
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.tesla-text span {
+  color: #89939e;
+}
+
+.tesla-logos {
+  margin-top: 30px;
+  display: flex;
+  align-items: center;
+  gap: 25px;
+  flex-wrap: wrap;
+}
+
+.tesla-logos img {
+  width: 40px;
+  height: 40px;
+  object-fit: contain;
+}
+
+.tesla-logos a {
+  color: #4caf4f;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.blog {
+  padding: 80px 8%;
+  text-align: center;
+}
+
+.blog-title h2 {
+  font-size: 42px;
+  color: #4d4d4d;
+}
+
+.blog-title p {
+  width: 620px;
+  margin: 20px auto 60px;
+  color: #717171;
+  line-height: 1.7;
+}
+
+.blog-cards {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 35px;
+}
+
+.blog-card {
+  position: relative;
+}
+
+.blog-card img {
+  width: 100%;
+  border-radius: 10px;
+}
+
+.blog-content {
+  width: 88%;
+  background: #f5f7fa;
+  margin: -70px auto 0;
+  position: relative;
+  border-radius: 8px;
+  padding: 25px;
+  box-shadow: 0 5px 20px rgba(0, 0, 0, 0.08);
+}
+
+.blog-content h3 {
+  color: #717171;
+  font-size: 22px;
+  line-height: 1.5;
+  margin-bottom: 25px;
+}
+
+.blog-content a {
+  color: #4caf4f;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.demo {
+  background: #f5f7fa;
+  padding: 80px 8%;
+  text-align: center;
+}
+
+.demo h2 {
+  font-size: 64px;
+  color: #263238;
+  line-height: 1.2;
+  margin-bottom: 40px;
+}
+
+.demo button {
+  padding: 16px 36px;
+  border: none;
+  background: #4caf4f;
+  color: #fff;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+footer {
+  background: #263238;
+  color: white;
+  padding: 70px 8%;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 60px;
+}
+
+.footer-left img {
+  width: 180px;
+  margin-bottom: 30px;
+}
+
+.footer-left p {
+  color: #d9dbe1;
+  margin-bottom: 10px;
+}
+
+.socials {
+  display: flex;
+  gap: 15px;
+  margin-top: 35px;
+}
+
+.socials img {
+  width: 36px;
+  height: 36px;
+}
+
+.footer-links {
+  display: flex;
+  gap: 90px;
+  flex-wrap: wrap;
+}
+
+.footer-links div {
+  display: flex;
+  flex-direction: column;
+}
+
+.footer-links h4 {
+  margin-bottom: 25px;
+  font-size: 22px;
+}
+
+.footer-links a {
+  color: #d9dbe1;
+  text-decoration: none;
+  margin-bottom: 14px;
+}
+
+.subscribe {
+  width: 260px;
+  height: 45px;
+  background: rgba(255, 255, 255, 0.2);
+  border-radius: 8px;
+  display: flex;
+  align-items: center;
+  overflow: hidden;
+}
+
+.subscribe input {
+  height: 100%;
+  border: none;
+  outline: none;
+  background: transparent;
+  color: white;
+  padding: 0 15px;
+}
+
+.subscribe input::placeholder {
+  color: #d9dbe1;
+}
+
+.subscribe button {
+  width: 50px;
+  height: 100%;
+  border: none;
+  background: transparent;
+  color: white;
+  cursor: pointer;
+  font-size: 18px;
+}
+@media (max-width: 1024px) {
+  .hero,
+  .pixelgrade,
+  .stats,
+  .design,
+  .tesla {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    gap: 40px;
+  }
+
+  .cards,
+  .blog-cards {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .stats-right {
+    grid-template-columns: repeat(2, 1fr);
+    margin-top: 40px;
+  }
+
+  footer {
+    flex-direction: column;
+    gap: 50px;
+  }
+
+  .footer-links {
+    justify-content: space-between;
+  }
+}
+
+@media (max-width: 768px) {
+  header {
+    flex-direction: column;
+    gap: 20px;
+    padding: 20px;
+  }
+
+  nav {
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+  }
+
+  .hero,
+  .pixelgrade,
+  .stats,
+  .design,
+  .tesla {
+    flex-direction: column;
+    text-align: center;
+    gap: 35px;
+  }
+
+  .hero h1 {
+    font-size: 46px;
+  }
+
+  .hero-image img,
+  .pixel-img img,
+  .design-img img,
+  .tesla-img img {
+    width: 100%;
+    max-width: 420px;
+    height: auto;
+  }
+
+  .cards,
+  .blog-cards {
+    grid-template-columns: 1fr;
+  }
+
+  .stats-right {
+    grid-template-columns: 1fr;
+    gap: 25px;
+  }
+
+  .footer-links {
+    flex-direction: column;
+    gap: 35px;
+  }
+
+  .blog-title p {
+    width: 100%;
+  }
+}
+
+@media (max-width: 480px) {
+  .hero,
+  .pixelgrade,
+  .stats,
+  .design,
+  .tesla,
+  .clients,
+  .community,
+  .blog,
+  .demo,
+  footer {
+    padding: 40px 20px;
+  }
+
+  .hero h1 {
+    font-size: 34px;
+  }
+
+  .clients h2,
+  .community h2,
+  .blog-title h2,
+  .demo h2,
+  .pixel-text h2,
+  .design-text h2,
+  .stats-left h2 {
+    font-size: 30px;
+  }
+
+  .register,
+  .hero button,
+  .pixel-text button,
+  .design-text button,
+  .demo button {
+    width: 100%;
+  }
+
+  .logos,
+  .tesla-logos,
+  .socials {
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 15px;
+  }
+
+  .subscribe {
+    width: 100%;
+  }
+
+  .subscribe input {
+    width: 100%;
+  }
+
+  body {
+    overflow-x: hidden;
+  }
+}
+
+@media (max-width: 375px) {
+  header {
+    padding: 15px;
+  }
+
+  nav {
+    gap: 12px;
+  }
+
+  nav a {
+    font-size: 14px;
+  }
+
+  .hero h1 {
+    font-size: 28px;
+  }
+
+  .hero p,
+  .pixel-text p,
+  .design-text p,
+  .tesla-text p,
+  .blog-title p {
+    font-size: 14px;
+  }
+
+  .card,
+  .blog-card {
+    width: 100%;
+  }
+
+  .footer-links {
+    text-align: center;
+  }
+
+  .footer-links div {
+    align-items: center;
+  }
+
+  body {
+    overflow-x: hidden;
+  }
+}
