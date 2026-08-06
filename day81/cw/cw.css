@@ -1,0 +1,19 @@
+:root {
+  --text-color: white;
+  --text-size: 30px;
+  --border-radius: 15px;
+  --background-color: blue;
+  --text-weight: 700;
+}
+
+.text {
+  color: var(--text-color);
+  font-size: var(--text-size);
+  border-radius: var(--border-radius);
+  background-color: var(--background-color);
+  font-weight: var(--text-weight);
+
+  padding: 20px;
+  width: 300px;
+  text-align: center;
+}

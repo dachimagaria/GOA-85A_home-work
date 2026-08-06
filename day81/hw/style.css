@@ -1,0 +1,33 @@
+:root {
+
+  --bg-color: lightblue;
+
+
+  --text-color: darkblue;
+  --text-size: 40px;
+
+
+  --btn-color: green;
+  --btn-text: white;
+  --radius: 10px;
+}
+
+div {
+  width: 200px;
+  height: 200px;
+  background-color: var(--bg-color);
+  margin-bottom: 20px;
+}
+
+h1 {
+  color: var(--text-color);
+  font-size: var(--text-size);
+}
+
+button {
+  background-color: var(--btn-color);
+  color: var(--btn-text);
+  border-radius: var(--radius);
+  padding: 10px 20px;
+  border: none;
+}
