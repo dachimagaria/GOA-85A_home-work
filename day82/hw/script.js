@@ -17,7 +17,6 @@ console.log("I live in " + "Tbilisi")
 
 //////////////////////////////////////////////////////////////
 console.log("JavaScript".length)
-
 //////////////////////////////////////////////////////////////
 console.log("javascript".toUpperCase())
 
@@ -48,6 +47,6 @@ console.log("Programming".slice(0, 7).toLowerCase().length)
 ////////////////////////////////////////////////////////////////
 console.log("      JavaScript      ".trim().startsWith("Java"))
 console.log("      JavaScript      ".trim().slice(0, 4))
-console.log("      JavaScript      ".trim().slice(0, 4).toUpperCase());
+console.log("      JavaScript      ".trim().slice(0, 4).toUpperCase())
 console.log("      JavaScript      ".trim().length)
 console.log("Language: " + "      JavaScript      ".trim().slice(0, 4).toUpperCase())
