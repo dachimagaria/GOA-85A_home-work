@@ -99,14 +99,3 @@ const validatePassword = (password) => {
 
 console.log(validatePassword("Hello@123"))
 
-////////////////////////////////////////////////////////////
-
-const validateUser = (username, age, password) => {
-  if (username.length > 0 && age >= 18 && password.length >= 8) {
-    return "User is valid"
-  } else {
-    return "User is invalid"
-  }
-};
-
-console.log(validateUser("Dachi", 18, "Password123"))
