@@ -73,3 +73,15 @@ numbers2[4] = numbers2[4] * 10;
 numbers2[5] = numbers2[5] * 10;
 
 console.log(numbers2);
+///////////////////////////////////////////////////////////
+let numbers3 = [10, 20, 30, 40, 50, 60, 70, 80];
+
+for (let i = 0; i < numbers3.length; i++) {
+  if (i % 2 === 0) {
+    numbers3[i] = numbers3[i] * 2;
+  } else {
+    numbers3[i] = numbers3[i] + 5;
+  }
+}
+
+console.log(numbers3);
