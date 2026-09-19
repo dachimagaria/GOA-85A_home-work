@@ -108,20 +108,17 @@ function findDivisors(number) {
 findDivisors(12);
 
 // 8
-function countVowels(text) {
-  let count = 0;
-  let vowels = "aeiou";
-
-  for (let i = 0; i < text.length; i++) {
-    if (vowels.includes(text[i].toLowerCase())) {
-      count++;
+function countVowels(string = "dachi"){
+    let count = 0
+    for(let i = 0; i < string.length;i++){
+        if(string[i].includes("a") || string[i].includes("e") || string[i].includes("i") || string[i].includes("o") || string[i].includes("u")){
+            count++
+        }
     }
-  }
-
-  return count;
+    console.log(count)
 }
+countVowels()
 
-console.log(countVowels("Hello World"));
 
 // 9
 const numbers3 = [4, 8, 12, 25, 30, 40, 50];
