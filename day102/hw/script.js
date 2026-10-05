@@ -26,7 +26,7 @@ function makeUpperCase(text) {
     return text.toUpperCase();
 }
 
-function makeLowerCase(text) {
+function makeLowerCase(text) {  
     return text.toLowerCase();
 }
 

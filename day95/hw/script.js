@@ -147,6 +147,8 @@ function addTen(number) {
   return number + 10;
 }
 
+ 
+
 function half(number) {
   return number / 2;
 }
