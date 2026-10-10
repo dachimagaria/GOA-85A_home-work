@@ -19,7 +19,7 @@ if (sum >= 10) {
 
 if (dice1 === dice2) {
     console.log("დუბლი!");
-}
+} 
 
 
 //2
