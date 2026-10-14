@@ -155,8 +155,7 @@
 //   if (number < 10) {
 //     result = number + 10;
 //   } else if (number <= 20) {
-//     result = number * 2;
-//   } else {
+//     result = number * 2; 
 //     result = number - 5;
 //   }
 
@@ -176,3 +175,4 @@
 //   console.log(`Original number: ${item.original}`);
 //   console.log(`Final result: ${item.final}`);
 // });
+    
