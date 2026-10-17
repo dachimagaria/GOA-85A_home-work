@@ -61,6 +61,7 @@
 // let items_that_contains_a = list.filter(item => item.includes("a"))
 // console.log(items_that_contains_a)
 
+
 //////////////////////////////////////////////////////////////////////////
 
 //8
