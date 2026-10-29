@@ -72,14 +72,14 @@ let company = {
     }
 };
 
-
+// გამოტანა
 // 1
 console.log(company.name);
 console.log(company.founded);
 
 // 2
 console.log(company.headquarters.city);
-console.log(company.headquarters.country);x
+console.log(company.headquarters.country);
 
 // 3
 console.log(company.headquarters.address.building.number);
@@ -116,7 +116,7 @@ console.log(company.projects.project2.team.technology.backend);
 console.log(company.projects.project2.team.technology.database);
 
 
-// ----- შეცვლა -----
+//შეცვლა 
 
 // 11
 company.name = "TechWorld";
